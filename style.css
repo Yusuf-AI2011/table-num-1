@@ -24,6 +24,7 @@ table {
     border-collapse: collapse; 
     margin: auto;
     margin-top: -550px;
+    box-shadow: 3px 3px 3px 2px green;
 }
 
 tr:nth-child(even) {
@@ -34,8 +35,6 @@ tr:nth-child(odd) {
     background-color: #ffffff;
 }
 
-.wrapper2 {
-    width: 100%;
-    height: 600px;
-    background-color: rgb(16, 16, 56);
+td:hover {
+    background-color: yellow;
 }
